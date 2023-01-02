@@ -12,7 +12,15 @@ section {
     max-width: 600px;
 }
 
-h1, h2, p, section img {
+img {
+    height: 200px;
+    object-fit: cover;
+    width: 600px;
+}
+
+h1, h2, p, 
+section img,
+section video {
     max-width: 600px;
     margin: auto;
 }
@@ -30,7 +38,7 @@ h2 {
 
 p {
     line-height: 1.75em;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1em;
 }
 
@@ -44,6 +52,10 @@ section p:nth-child(3)::first-letter {
 figure {
     margin: 0;
     padding: 0;
+}
+
+.gallery {
+    margin: 10px 0;
 }
 
 .gallery img {
