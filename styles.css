@@ -45,3 +45,7 @@ figure {
     margin: 0;
     padding: 0;
 }
+
+.gallery img {
+    width: 49.5%;
+}
