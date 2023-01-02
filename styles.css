@@ -11,7 +11,7 @@ section {
     margin: auto;
 }
 
-h1, h2, p, img {
+h1, h2, p, section img {
     max-width: 600px;
     margin: auto;
 }
