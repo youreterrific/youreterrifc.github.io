@@ -4,13 +4,14 @@ body {
     color: #fff;
     font-family: 'Domine', serif;
     text-align: center;
+    margin: 0;
 }
 
 section {
     margin: auto;
 }
 
-h1, h2, p {
+h1, h2, p, img {
     max-width: 600px;
     margin: auto;
 }
@@ -37,4 +38,9 @@ section p:nth-child(3)::first-letter {
     padding: 0 5px 0 0;
     float: left;
     line-height: 1;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
 }
