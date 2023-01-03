@@ -3,18 +3,24 @@ body {
     background-color: #333;
     color: #fff;
     font-family: 'Domine', serif;
-    text-align: center;
+    margin: 0 .25em;
 }
 
 section {
-    margin: auto;
-    max-width: 600px;
 }
 
 img {
+    display: block;
     height: 200px;
     object-fit: cover;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
 }
 
 h1, h2, p, 
@@ -22,6 +28,10 @@ section img,
 section video {
     max-width: 600px;
     margin: auto;
+}
+
+section .gallery img {
+    display: inline;
 }
 
 h1, h2, h3 {
@@ -54,9 +64,15 @@ figure {
 }
 
 .gallery {
-    margin: 10px 0;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
 }
 
 .gallery img {
-    width: 49.5%;
+    width: 49%;
+}
+
+.fslightbox-source {
+    max-width: 100%;
 }
