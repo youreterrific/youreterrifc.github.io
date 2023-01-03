@@ -20,6 +20,11 @@ body {
     font-size: .95em;
 }
 
+hr {
+    max-width: 600px;
+    margin: 20px auto;
+    opacity: .5;
+}
 
 section {
 }
