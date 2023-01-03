@@ -3,12 +3,21 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Domine', serif;
-    margin: 0 .5em;
-    background-image: url('img/bg.jpg');
+    margin: 0;
+    padding: 0 10px;
+    /*background-image: url('img/bg.jpg');
     background-size: 100vw auto;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+
+    background-attachment: fixed;
+    background: rgb(103,0,40);
+    background: -moz-linear-gradient(135deg, rgba(103,0,40,1) 0%, rgba(0,70,51,1) 33%, rgba(9,9,121,1) 49%, rgba(88,0,54,1) 75%, rgba(1,69,0,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(103,0,40,1) 0%, rgba(0,70,51,1) 33%, rgba(9,9,121,1) 49%, rgba(88,0,54,1) 75%, rgba(1,69,0,1) 100%);
+    background: linear-gradient(135deg, rgba(103,0,40,1) 0%, rgba(0,70,51,1) 33%, rgba(9,9,121,1) 49%, rgba(88,0,54,1) 75%, rgba(1,69,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#670028",endColorstr="#014500",GradientType=1);
+
     font-size: .95em;
 }
 
