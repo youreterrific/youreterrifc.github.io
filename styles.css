@@ -10,10 +10,11 @@ body {
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(103,0,40,1) 61%, rgba(9,9,121,1) 100%);
     background: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(103,0,40,1) 61%, rgba(9,9,121,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#090979",GradientType=1);
-    
+
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 100vh;
 
     font-size: .95em;
 }
