@@ -16,6 +16,7 @@ hr {
   border-width: 1px 0 0 0; 
   border-radius: 20px; 
   margin-bottom: -30px;
+  max-width: 650px;
 } 
 
 hr:before { 
